@@ -1,0 +1,88 @@
+/* Reset default margin and padding */
+body, h1, h2, ul, li, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set global font and background styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    background-color: #F4F4F4;
+    color: #333;
+}
+
+/* Main container style */
+.page {
+    width: 210mm;
+    height: 297mm;
+    box-shadow: 0 0 5mm rgba(0, 0, 0, 0.1);
+    padding: 20mm;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    overflow: hidden;
+    page-break-after: always;
+}
+
+/* Heading styles */
+h1.varunteja-heading {
+    font-size: 36px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+/* Subheading styles */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    color: #007BFF;
+}
+
+/* List item styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Education year styles */
+.education-year {
+    float: right;
+    color: #777;
+}
+
+/* Contact info styles */
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Interest styles */
+.interests {
+    display: flex;
+}
+
+.interests ul {
+    flex: 1;
+}
+
+/* Links styles */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
